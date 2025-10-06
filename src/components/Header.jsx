@@ -19,7 +19,7 @@ const Header = ({ onNav }) => {
           {['About', 'Skills', 'Projects', 'Contact'].map(item => (
             <button
               key={item}
-              onClick={() => scrollTosection(item.toLowerCase())}
+              onClick={() => scrollToSection(item.toLowerCase())}
               className="hover:text-cyan-400 transition-colors relative group"
             >
               {item}
