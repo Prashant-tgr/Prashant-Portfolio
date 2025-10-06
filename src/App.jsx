@@ -117,14 +117,13 @@ const Portfolio = () => {
 
       <Header onNav={setActiveSection} />
 
-      <Hero />
+      <div id="hero"><Hero /></div>
+      <div id="about"><About /></div>
+      <div  id="skills"><Skills /></div>
 
-      <About />
-      <Skills />
+      <div id="projects"><Projects /></div>
 
-      <Projects />
-
-      <Contact />
+      <div id="contact"><Contact /></div>
 
       <Footer />
     </div>
