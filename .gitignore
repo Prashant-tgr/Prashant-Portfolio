@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+.vite/
+# Ignore environment variable files
+.env.local
+.env.*.local
+# Ignore Mac system files
+.DS_Store   
+# Ignore log files
+*.log
+# Ignore build output directory
+dist/
+.vite/
+# Ignore dependency directories
+node_modules/
